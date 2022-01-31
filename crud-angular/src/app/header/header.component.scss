@@ -1,0 +1,19 @@
+.navbar {
+  height: 12vh;
+  position:sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  .navbar-collapse{
+    background-color:#f8f9fa;
+    border-radius: 2vh;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    a{
+      margin-left: 2vh;
+    }
+  }
+  .nav-link {
+    font-size: 1.3rem;
+  }
+}

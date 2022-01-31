@@ -1,7 +1,14 @@
-<h3>{{product.title}}</h3>
-<img [src]="product.image" alt="portadaLibro" />
-<p>{{product.autor}}</p>
-<strong>{{product.price | currency}}</strong>
-<p>{{product.description}}</p>
+<div class="col">
+  <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem">
+    <img [src]="product.image" alt="portadaLibro" class="card-img-top" />
+    <div class="card-body">
+      <h5 class="card-title">{{ product.title }}</h5>
+      <p class="card-text">{{ product.autor }}</p>
+      <strong>{{ product.price | currency  }}</strong>
+      <p>{{ product.description }}</p>
+      <button type="button" class="btn btn-outline-primary" (click)="editProduct()" ><i class="bi bi-pencil-square"></i></button>
+      <button type="button" class="btn btn-outline-primary" (click)="deleteProduct()"><i class="bi bi-trash"></i></button>
+    </div>
+  </div>
+</div>
 
-<button (click)="addCart()">Agregar al carrito</button>

@@ -1,79 +1,79 @@
 {
-   "user": [
-      {
-         "id": "1",
-         "Name": "Pedro",
-         "lastName": "Gutierrez",
-         "motherLastName": "Sosa",
-         "role": "Rh"
-      },
-      {
-         "id": "2",
-         "Name": "Simon",
-         "lastName": "Perez",
-         "motherLastName": "Saenz",
-         "role": "Ventas"
-      },
-      {
-         "id": "3",
-         "Name": "Paula",
-         "lastName": "Garcia",
-         "motherLastName": "Gil",
-         "role": "Cajero"
-      },
-      {
-         "id": "1",
-         "Name": "Pedro",
-         "lastName": "Gutierrez",
-         "motherLastName": "Sosa",
-         "role": "Cajero"
-      }
-   ],
-   "products": [
-      {
-         "id": "1",
-         "image": "https://i.ibb.co/wY8YB5Y/libro2.jpg",
-         "title": "el abandono",
-         "autor": "Mel Leyva",
-         "price": 400,
-         "description": "Habla del abandono del Alma, vuelve a encontarte con tu yo.",
-         "calification": 3
-      },
-      {
-         "id": "2",
-         "image": "https://i.ibb.co/KW9J8mk/libro1984.jpg",
-         "title": "1984",
-         "autor": "Diego Verdaguez",
-         "price": 500,
-         "description": "Te trasportara a otra dimensión",
-         "calification": 3
-      },
-      {
-         "id": "3",
-         "image": "https://i.ibb.co/mvJfpTP/libro-Alicia.jpg",
-         "title": " Alicia",
-         "autor": "Joel Ortega",
-         "price": 550,
-         "description": "Las maravillas de un descubrimiento",
-         "calification": 3
-      },
-      {
-         "id": "4",
-         "image": "https://i.ibb.co/kgGj7qp/librograce.jpg",
-         "title": " Grace",
-         "autor": "Joel Ortega",
-         "price": 550,
-         "description": "Las maravillas de un descubrimiento",
-         "calification": 3
-      },
-      {
-         "id": "5",
-         "image": "https://i.ibb.co/GppQWG9/the-underwater-fancy-dress-parade-allison-colpoys.jpg",
-         "title": " Underwater",
-         "autor": "Allison Colpoys",
-         "price": 550,
-         "description": "Un excelente cuento para dormir",
-         "calification": 3
-      }
-   ]
+  "user": [
+    {
+      "id": "1",
+      "Name": "Pedro",
+      "lastName": "Gutierrez",
+      "motherLastName": "Sosa",
+      "role": "Rh"
+    },
+    {
+      "id": "2",
+      "Name": "Simon",
+      "lastName": "Perez",
+      "motherLastName": "Saenz",
+      "role": "Ventas"
+    },
+    {
+      "id": "3",
+      "Name": "Paula",
+      "lastName": "Garcia",
+      "motherLastName": "Gil",
+      "role": "Cajero"
+    },
+    {
+      "id": "1",
+      "Name": "Pedro",
+      "lastName": "Gutierrez",
+      "motherLastName": "Sosa",
+      "role": "Cajero"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/wY8YB5Y/libro2.jpg",
+      "title": "El abandono",
+      "autor": "Mel Leyva",
+      "price": 400,
+      "description": "Habla del abandono del Alma, vuelve a encontarte con tu yo.",
+      "calification": 3
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/KW9J8mk/libro1984.jpg",
+      "title": "1984",
+      "autor": "Diego Verdaguez",
+      "price": 500,
+      "description": "Te trasportara a otra dimensión",
+      "calification": 3
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/mvJfpTP/libro-Alicia.jpg",
+      "title": " Alicia",
+      "autor": "Joel Ortega",
+      "price": 550,
+      "description": "Las maravillas de un descubrimiento",
+      "calification": 3
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/kgGj7qp/librograce.jpg",
+      "title": " Grace",
+      "autor": "Joel Ortega",
+      "price": 550,
+      "description": "Las maravillas de un descubrimiento",
+      "calification": 3
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/GppQWG9/the-underwater-fancy-dress-parade-allison-colpoys.jpg",
+      "title": " Underwater",
+      "autor": "Allison Colpoys",
+      "price": 550,
+      "description": "Un excelente cuento para dormir",
+      "calification": 3
+    }
+  ]
 }

@@ -17,18 +17,23 @@ import { product } from 'src/app/product.model';
 export class ProductComponent implements OnInit {
 
   @Input() product: product;
-  @Output() productClicked: EventEmitter<any> = new EventEmitter();
-
-  addCart() {
-    console.log("añadir al carrito");
-    this.productClicked.emit(this.product.id);
-  }
+  @Output() productClicked: EventEmitter<any> 
+  @Output() deleteClicked: EventEmitter<any> 
 
   constructor() {
-    console.log('contrustor')
+    this.productClicked= new EventEmitter();
+    this.deleteClicked= new EventEmitter();
   }
 
+  editProduct(){
+    this.productClicked.emit(this.product);
+    console.log(this.product.id)
+  }
 
+  deleteProduct(){
+    this.deleteClicked.emit(this.product);
+    console.log(this.product.id)
+  }
   ngOnInit(): void {
     console.log('nOnInit');
   }

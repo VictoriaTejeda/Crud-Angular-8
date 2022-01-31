@@ -1,11 +1,24 @@
-:host{
-    display: block;
-    border: solid black;
-    margin: 3vh;
-    
-}
 
-img{
-    width: 30vh;
-    height: 30vh;
-}
+  .col {
+    width: 18rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .card {
+      position: unset;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      img {
+        margin:2vh;
+        width: 30vh;
+        height: 30vh;
+      }
+      button{
+        margin:1vh;
+        width: 6vh;
+        height: 6vh;
+      }
+    }
+  }
