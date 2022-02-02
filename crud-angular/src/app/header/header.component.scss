@@ -5,6 +5,10 @@
   bottom: 0;
   width: 100%;
 
+  h1{
+    font-size: 2rem;
+  }
+
   .navbar-collapse{
     background-color:#f8f9fa;
     border-radius: 2vh;
@@ -12,6 +16,11 @@
     a{
       margin-left: 2vh;
     }
+    @media (min-width: 1000px) {
+      border-radius: none;
+      box-shadow: none;
+    }
+
   }
   .nav-link {
     font-size: 1.3rem;
