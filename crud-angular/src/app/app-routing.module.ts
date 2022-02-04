@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 
 import { ProductsComponent } from './products/components/products/products.component';
-import { UsersComponent } from './users/users.component';
+import { UsersComponent } from './users/components/user/users.component';
 import { LoginComponent } from './login/login.component';
 import { ProductDetailComponent } from './products/components/product-detail/product-detail.component';
 import { LayoutComponent } from './layout/layout.component';
