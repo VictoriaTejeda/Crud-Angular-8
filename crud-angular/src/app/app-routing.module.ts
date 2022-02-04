@@ -2,10 +2,10 @@ import { Component, NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 
-import { ProductsComponent } from './products/products.component';
+import { ProductsComponent } from './products/components/products/products.component';
 import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './login/login.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductDetailComponent } from './products/components/product-detail/product-detail.component';
 import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
@@ -25,7 +25,7 @@ const routes: Routes = [
       },
       {
         path:'products',
-        component:ProductsComponent 
+        loadChildren: ()=> import('./products/products.module').then(m=>m.ProductModule) 
       },
     
       {

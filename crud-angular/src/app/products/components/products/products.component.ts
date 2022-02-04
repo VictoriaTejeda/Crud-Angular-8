@@ -1,6 +1,6 @@
 import { Component, OnInit, Input,  } from '@angular/core';
-import { CrudService } from '../core/models/crud/crud.service';
-import { Product } from '../core/models/product.model';
+import { CrudService } from '../../../core/models/crud/crud.service';
+import { Product } from 'src/app/core/models/product.model';
 
 @Component({
   selector: 'app-products',

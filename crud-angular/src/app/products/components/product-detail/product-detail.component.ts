@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { CrudService } from '../core/models/crud/crud.service';
+import { CrudService } from 'src/app/core/models/crud/crud.service';
 
 @Component({
   selector: 'app-product-detail',
